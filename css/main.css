@@ -1,0 +1,137 @@
+/*
+Student Name: Samarpreet Singh
+Student Number: 200510621
+Program: CMPG 2 Year Diploma
+Section and CRN: Tuesday 12PM, 11384
+*/
+
+@charset "utf-8";
+
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+    /*setting basic styles to the body*/
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* using flexbox on the button container to make them horizontally oriented */
+#button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* spacing the buttons out evenly */
+}
+
+/* using flexbox on function buttons container too */
+#function-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* spacing the function buttons out */
+}
+
+/*General styling for buttons */
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+/*Special background colours for all array buttons, matching the colours in the physical toy itself! */
+#nouns-button {
+    background-color: #a341ff
+}
+
+#verbs-button {
+    background-color: #69d0ff
+}
+
+#adjectives-button {
+    background-color: #26fc26
+}
+
+#second-nouns-button {
+    background-color: #ff8d41
+}
+
+#places-button {
+    background-color: #ff44e6
+}
+
+/* margin for function buttons to space them away */
+#speak-button,
+#surprise-button,
+#reset-button {
+    margin-top: 80px;
+}
+
+/* special background colours (matching the physical toy again) and hover effects for the functionality buttons */
+#speak-button {
+    background-color: #1997c9;
+}
+
+#speak-button:hover {
+    background-color: #1976D2;
+}
+
+#surprise-button {
+    background-color: #ff3e3e;
+}
+
+#surprise-button:hover {
+    background-color: #d12b0e;
+}
+
+#reset-button {
+    background-color: #d89f36;
+}
+
+#reset-button:hover {
+    background-color: #c98d1f;
+}
+
+/* styling the paragraph textToSpeak that is shown on the page */
+#story-text {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: #417dff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#physical-toy { /* styling the p tag which contains the physical toy text and picture */
+    margin: 20px;
+    border: 2px solid #ff7f50;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    color: #8912d8;
+}
+
+img { /*styling for the picture */
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Adjustments for a responsive layout */
+@media (max-width: 600px) {
+    #button-container {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
