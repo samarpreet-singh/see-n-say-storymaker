@@ -10,4 +10,4 @@ Press the "Surprise!" button to generate random phrases!
 
 The "Reset!" button clears up all selected words and lets you start from scratch.
 
-Have fun! Thank you for trying out this tool :)
+Have fun! Thank you for trying out this tool :) Visit my Linkedin Profile for my entire portfolio! - https://linkedin.com/in/samarpreet
